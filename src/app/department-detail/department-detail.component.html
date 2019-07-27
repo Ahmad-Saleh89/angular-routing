@@ -1,8 +1,22 @@
 <div style="padding: 10px;" class="border">
+
+  <div>
+    <button (click)="showOverview()" class="btn btn-primary">Overview</button>&nbsp;
+    <button (click)="showContact()" class="btn btn-info">Contact</button>
+  </div>
+<br>
+<div class="shadow-none p-3 mb-5 bg-light rounded">
+  <router-outlet></router-outlet>
+</div>
+
   <h3>You selected department with id = {{ departmentId }}</h3>
   <br>
-  <button (click)="goPrevious()" type="button" class="btn btn-dark">Previous</button>&nbsp;
-  <button (click)="goNext()" type="button" class="btn btn-dark">Next</button>
-  <button (click)="gotoDepartments()" type="button" class="btn btn-warning float-right">Back</button>
+
+  <div>
+    <button (click)="goPrevious()" type="button" class="btn btn-dark">Previous</button>&nbsp;
+    <button (click)="goNext()" type="button" class="btn btn-dark">Next</button>
+    <button (click)="gotoDepartments()" type="button" class="btn btn-warning float-right">Back</button>
+  </div>
+
 
 </div>
