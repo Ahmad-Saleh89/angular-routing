@@ -1,0 +1,16 @@
+/* Add application styles & imports to this file! */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+
+#nav a{
+  color: black;
+  padding: 10px;
+  margin: 10px;
+  background: rgb(215, 236, 229);
+  text-decoration: none;
+}
+#nav a:hover, #nav a.active{
+  text-decoration: none;
+  background: rgb(13, 184, 127);
+  color: #fff;
+}
