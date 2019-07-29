@@ -11,7 +11,7 @@ import { DepartmentContactComponent } from './department-detail/department-conta
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, AppRoutingModule ],
-  declarations: [ AppComponent, routingComponents, PageNotFoundComponent, DepartmentDetailComponent, DepartmentOverviewComponent, DepartmentContactComponent ],
+  declarations: [ AppComponent, routingComponents ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
